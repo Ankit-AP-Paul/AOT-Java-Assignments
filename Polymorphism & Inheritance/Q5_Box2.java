@@ -1,4 +1,4 @@
-class Box2 {
+class Q5_Box2 {
 	double volume(double s) {
 		return s*s*s;
 	}
@@ -6,7 +6,7 @@ class Box2 {
 		return (1.0/3.0)*Math.PI*r*r*h;
 	}
 	public static void main(String[] args) {
-		Box2 ob=new Box2();
+		Q5_Box2 ob=new Q5_Box2();
 		System.out.println("Volume of cone = "+ob.volume(5,10));
 		System.out.println("Volume of cube = "+ob.volume(5));
 	}

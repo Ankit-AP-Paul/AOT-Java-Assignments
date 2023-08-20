@@ -1,4 +1,4 @@
-class Overloading1 {
+class Q1_Overloading1 {
 	void m1() {
 		System.out.println("void m1() method");
 	}
@@ -7,7 +7,7 @@ class Overloading1 {
 		return 0;
 	}
 	public static void main(String[] args) {
-		Overloading1 ob=new Overloading1();
+		Q1_Overloading1 ob=new Q1_Overloading1();
 		ob.m1();
 	}
 }

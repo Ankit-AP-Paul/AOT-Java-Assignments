@@ -20,7 +20,7 @@ class D extends A {
 	}
 }
 
-class Inheritance3 {
+class Q8_Inheritance3 {
 	public static void main(String[] args) {
 		A a=new A();
 		a.show();

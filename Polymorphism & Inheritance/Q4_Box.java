@@ -1,10 +1,10 @@
-class Box {
+class Q4_Box {
 	double s;
 	double r,h;
-	Box(double s) {		//cube
+	Q4_Box(double s) {		//cube
 		this.s=s;
 	}
-	Box(double r, double h) {		//cone
+	Q4_Box(double r, double h) {		//cone
 		this.r=r;
 		this.h=h;
 	}
@@ -18,10 +18,10 @@ class Box {
 	}
 	public static void main(String[] args) {
 		//cube
-		Box ob1=new Box(5);
+		Q4_Box ob1=new Q4_Box(5);
 		System.out.println("Volume of cube = "+ob1.volume());
 		//cone
-		Box ob2=new Box(5,10);
+		Q4_Box ob2=new Q4_Box(5,10);
 		System.out.println("Volume of cone = "+ob2.volume());
 	}
 }
