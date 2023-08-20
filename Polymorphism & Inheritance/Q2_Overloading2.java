@@ -1,4 +1,4 @@
-class Q2_Overloading2 {
+class Overloading2 {
 	int add(int n1, int n2) {
 		return n1+n2;
 	}
@@ -9,7 +9,7 @@ class Q2_Overloading2 {
 		return f1+f2;
 	}
 	public static void main(String[] args) {
-		Q2_Overloading2 ob=new Q2_Overloading2();
+		Overloading2 ob=new Overloading2();
 		System.out.println("2+3="+ob.add(2,3));
 		System.out.println("2+3+7="+ob.add(2,3,7));
 		System.out.println("2.3+5.2="+ob.add(2.3f,5.2f));

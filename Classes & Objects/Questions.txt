@@ -1,0 +1,30 @@
+Classes and Objects
+
+
+1. Add two numbers by taking input using Command Line Input, Scanner class and BufferedReader class.
+
+2. Write a program to find Area and Circumference of Cylinder Using Constructors - Keyboard Input or Command Line Input.
+
+3. Write a program to find Area and Volume of Cone Using Constructors - Keyboard Input or Command Line Input.
+
+4. Create a class First, make instance variable [int x], method [void show ()] and also put main method inside that class and use the instance variable and method from main.
+
+5. Create a class; make its instance variable and method. Use them from main, declared in different class.
+
+6. Create a class, make method inside it and pass object as parameter of this method. (a. pass same class’s object, b) pass different class’s object)
+
+7. Create a class; put a method inside this class which will return a class reference return same class and/or different class object.
+
+8. Write a JAVA Program to make a Student class with proper attributes like roll no, name, stream, and college.
+
+9. Design a class to represent a Bank Account. Include the following things:
+Fields
+• Name of the depositor
+• Account number
+• Type of account
+• Balance amount in the account
+Methods
+• To assign initial values
+• To deposit an amount
+• To withdraw an amount after checking balance
+• To display the name and balance

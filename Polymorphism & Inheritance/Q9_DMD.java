@@ -34,7 +34,7 @@ class Dscientist extends Scientist {
 	}
 }
 
-public class Q9_DMD {
+class DMD {
     public static void main(String[] args) {
 		EMP ob1=new EMP("Ankit",16900121034l);
 		System.out.println("EMP class obj");
