@@ -1,0 +1,19 @@
+This assignment is to learn Polymorphism & Inheritance.
+
+1. Create a class and test if method overloading holds good for return type of method or not.
+
+2. Write a java program to overload three methods named with addition() having different parameters.
+
+3. Write a java program to overload the constructor named with Addition() having different parameters.
+
+4. Overload the constructors for class Box for cube and cone and also display its volume.
+
+5. Do the problem 2 for method overloading.
+
+6. Create a class Student containing instance variables roll and name and a parameterized constructor. Create two objects of that class from the main class and print them (Hints: Override toString method of Object class).
+
+7. Create a class EMP having instance variable name and id. Create its subclass (say Scientist) which has instance variable no_of_publication and experience. Now create its subclass, say Dscientist which has instance variable award. Put a method: public String toString () { } in every class where you describe about the class and from main create object of each class and print each object.
+
+8. Create a class with a method void show () and make 3 subclasses of it and all subclasses have void show () method overridden and call those methods using their class references.
+
+9. Do the problem 7 using dynamic method dispatching
