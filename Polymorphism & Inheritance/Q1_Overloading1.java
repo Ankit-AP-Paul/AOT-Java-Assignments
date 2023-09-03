@@ -1,4 +1,5 @@
 class Overloading1 {
+	//error: Duplicate method m1() in overloading not allowed
 	void m1() {
 		System.out.println("void m1() method");
 	}
