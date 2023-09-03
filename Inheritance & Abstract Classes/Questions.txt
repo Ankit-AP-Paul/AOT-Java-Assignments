@@ -1,0 +1,19 @@
+Inheritance and Abstract classes.
+
+1. Write a Java Program to implement the following: Create a base class TwoD that contains two instance variable length and breadth and an abstract method area(). Three subclasses triangle, square and rectangle inherits the base class TwoD and override the method area() according to their shape.
+
+2. Do the problem 2 using abstract class.
+
+3. Check without having any abstract method/s whether a class can be abstract; if so, then use that concrete method/s from another class having main method.
+
+4 Create an abstract class with three abstract methods check whether you can we override only few methods (not all methods) in subclass or not.
+
+5. Write a Java Program to create a base class Animal having properties: consume food, capable of motion. Two subclass Mammal and Reptile having features: covered with hairs and feed breast milk to its infants, can crawl, have scales and cold blooded respectively. Show the properties of Human and cow for Mammal category, snake and crocodile for reptile category adding one new feature for each of the classes.
+
+6. Assume that a bank maintains two kinds of account for its customers, one called savings account and other called current account. The savings account provides compound interest and withdrawal facilities but no cheque book facility. The current account provides cheque book facility but no interest. Current account holders should also maintain a minimum balance (say Rs. 1000) and if the balance falls below this level a service charge is imposed (say Rs. 100). Create a class Account that stores customer name, account number and type of account. From this class derive two classes Curr_Acct and Savn_Acct respectively to make them more specific to their requirements. Include the necessary methods to achieve the following tasks:
+a. Accept deposit from a customer and update the balance.
+b. Display the balance.
+c. Compute and deposit interest.
+d. Permit withdrawal and update the balance.
+e. Check for minimum balance, impose penalty, if necessary, and update the balance.
+Use constructors to initialize the class members.
