@@ -1,0 +1,16 @@
+Objective:
+The objective of this Assignment is to learn Multi-Threading concept.
+
+1.	Inherit a class from Thread and override the run( ) method. Inside run( ), print  name of thread , and then call sleep( ). Repeat this three times, then return from run( ). Put a start-up message in the constructor. Make your thread object and main thread run to see what happens. 
+
+2.	Implement a class from Runnable and override the run( ) method. Inside run( ), print full qualified name of thread, and then call sleep( ). Repeat this three times, then return from run( ). Put a start-up message in the constructor. Make your thread object and main thread run to see what happens.
+
+3.	Make several threads (say 5) with names (by extending thread), set their priority and run them to see what happens.
+
+4.	Make several threads (say 5) with their names (implementing Runnable) set their priority and run them to see what happens.
+
+5.	Implement program of locking of common method by several threads. (Using the keyword ‘synchronized’).
+
+6.  Write a program to use join() and isAlive() in Multi-Threading. 
+
+7.  Inter thread communication :Consumer consumes item produced by Producer with proper synchronization.
