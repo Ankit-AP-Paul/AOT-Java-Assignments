@@ -1,0 +1,20 @@
+Objective:
+The objective of this assignment is to learn Exception Handling concept.
+
+1. Write a program to handle the ArithmeticException. 
+
+2. Write a program for multiple catch to fire ArrayIndexOutOfBoundsException and StringIndexOutOfBoundsException both.
+
+3. Write a program to fire the NegativeArraySize exception. 
+
+4. Define an object reference and initialize it to null. Try to call a method through this reference. Now wrap the code in a try-catch clause to catch the exception.
+
+5. Write a program to fire any checked exception manually using ‘throw’ keyword.
+
+6. Write a program to create a user defined exception named PayOutOfBoundsException (provided the monthly salary of a person is less than Rs. 10,000 /-) and fire the exception. 
+
+7. Create a class with two methods, f( ) and g( ). In g( ), throw an exception of a new type that you define. In f( ), call g( ), catch its exception and, in the catch clause, throw a different exception (of a second type that you define). Test your code in main( ).
+
+8. Write a program that takes one string and two integers as command line argument and prints the reverse of the substring of the string specified by the two numbers. The program should handle all possible exception that may arise due to bad input.
+
+9. Write a demo program to illustrate ‘throws’ versus method overriding.
