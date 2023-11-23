@@ -1,0 +1,20 @@
+Objective:
+The objective of this assignment is to learn File and JCF concept.
+
+1.	Write a program in Java that converts a string vector (containing strings) into an array of strings and display them [use command-line argument].
+
+2.	Write a program in Java that accepts a shopping list of five items from the command line and stores them in a vector.
+
+3.	Modify the program of Question No. 2 to accomplish the following:
+•	To delete an item in the list
+•	To add an item at a specified location in the list.
+•	To add an item at the end of the list.
+•	To print the contents of the vector.
+
+4. Write a program to read lines from a text input file and print them over console. 
+
+5. Write a program to save the sentences to a file you type using keyboard on a console until you put ‘eof’ marker (say ‘q’). 
+
+6. Write a program to concatenate the contents of two files into third one.
+
+7. Write a program to read lines from a text input file and print them as words over console.
