@@ -1,0 +1,18 @@
+Objective:
+The objective of this assignment is to learn abstraction using interface.
+
+1. Create an interface named Shape with a field pie (=3.14). Create two subclasses of it named
+Circle and Rectangle. Create object of the two sub-classes, override and calculate their area.
+From main() method define in a separate file test the area() methods.
+
+2. Create two interfaces, each with two methods. Inherit a new interface from the two, adding a
+new method. Create a class by implementing the new interface and also inheriting from a
+concrete class. In main (), create an object of derived class and call the methods. [do all
+without package statement]
+
+3. Create a base class interface Car having three properties – number of engines=1, number of
+wheels=4 and number steering=1 and two abstract methods – engine capacity and seating
+capacity. Create one interface LuxuriousCar having three abstract methods – entertainment
+system, number of airbags and parking sensor. Mercedes Benz is a luxurious car and Alto is
+a non-luxurious car.
+Design the two categories of car from another class that contains the main method.
