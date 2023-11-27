@@ -1,0 +1,59 @@
+Topic: Strings
+Objective: The objective of this assignment is to understand the concept of Strings in java.
+
+1. Take a string from the keyboard and convert it into a character array (new one).
+
+2. Take a string from the keyboard and a char array (of length 5). Now append the string to that
+char array.
+
+3. Find length of a string taken from the keyboard and also find the length of that string except
+front and end spaces.
+
+4. Write a java program to perform String Reverse.
+
+5. Write program 4 using StringBuffer.
+
+6. Write a java program to check whether a String is Palindrome or not.
+
+7. Given two strings, append them together (known as "concatenation") and return the result.
+However, if the concatenation creates a double-char, then omit one of the chars. If the inputs are
+“Mark” and “Kate” then the ouput should be “markate”. (The output should be in lowercase)
+
+8. Take input a name using command line and print it in abbreviated format.
+(e.g. Input: Amit Kumar Das Output: A.K.Das)
+
+9. Generate password from initials of one’s first_name, middle_name, last_name and with the
+last four digits of your roll_no.(if the middle name is not present, it won't come).
+
+10. Create two strings s1 and s2 from user input, create another String s3 that contains one
+character from s1 and another character from s2.
+(for example: s1=”ABC”, s2=”DE”, s3=”ADBEC”).
+
+11. Check if "Tech" presents in "University of Technology" or not. If yes, return its position.
+
+12. Given a string of even length, return the first half. So the string "CatDog" yields "Cat". If the
+string length is an odd number then return null.
+
+13. Write a program in Java which will read a string and rewrite it in the alphabetical order. For
+example, the word STRING should be written as GINRST.
+
+14. Write your own method called deleteMe (String str, int m) that returns the input string with
+the mth element removed.
+
+15. Write a program to do the following:
+(i) To display the question “Who is the inventor of Java”?
+(ii) To accept an answer.
+(iii) To print “Good” and then stop, if the answer is correct.
+(iv) To print “Try Again”, if the answer is wrong.
+(v) To display the correct answer when the answer is wrong even at the third attempt and stop.
+
+16. Given a string and an int n, return a string made of n repetitions of the last n characters of the
+string. You may assume that n is between 0 and the length of the string, inclusive.
+(For example if the inputs are “Wipro” and 3, then the output should be “propropro”.)
+
+17. Given a string and a non-empty word string, return a string made of each char just before
+and just after every appearance of the word in the string. Ignore cases where there is no char
+before or after the word, and a char may be included twice if it is between two words.
+(For example, if inputs are "abcXY123XYijk" and "XY", output should be "c13i". If inputs are
+"XY123XY" and "XY", output should be "13". If inputs are "XY1XY" and "XY", output should
+be "11").

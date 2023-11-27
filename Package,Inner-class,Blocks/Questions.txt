@@ -1,0 +1,28 @@
+Objective:
+The objective of this assignment is to learn access specifiers and package, inner class and blocks.
+
+1. Create a class containing some public and private data and having one public method.
+Access private data from outside the class after satisfying some criteria of the public
+method.
+
+2. Create a class with variable(s) and method(s) (all will be default accessed) under package
+pOne. Now create a class under package pTwo, which is subclass of firstly created class. In
+the method here (i.e. class of pTwo) call variable(s) and method(s) of previous class (i.e.
+class of pOne). If errors come, rectify them. Now from Main (under working directory)
+access second class’s members.
+
+3. Create an interface containing three methods, in a package ‘pkgOne’. Implement the
+interface from a class under package pkgTwo. From main, under working directory, create
+object of the class and call methods of interface.
+
+4. Show that ordinary block is executed when object is created and also the order of execution
+of these blocks (for multiple blocks/ inherited block).
+
+5. Show that static block is executed at the time of class loading and also the order of execution
+of these blocks (for multiple blocks/ inherited block).
+
+6. Create a class which contains an inner class. Show that inner class can use member of outer
+class directly, but Outer class can use member of Inner class only through its object. Check
+the name of class file, you created.
+
+7. Write a program to demonstrate anonymous inner class (using super class and interface)
