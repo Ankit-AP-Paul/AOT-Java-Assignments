@@ -12,21 +12,19 @@ class UserDefinedException2 extends Exception {
 
 class Test {
 	void f() {
-		g();
-	}
-	void g() {
 		try {
-			throw new UserDefinedException1();
-		}
-		catch(Exception e1) {
-			System.out.println(e1);
+			g();
+		} catch (UserDefinedException1 e) {
+			System.out.println(e);
 			try {
 				throw new UserDefinedException2();
-			}
-			catch(Exception e2)    {
-				System.out.println(e2);
+			} catch (UserDefinedException2 e1) {
+				System.out.println(e1);
 			}
 		}
+	}
+	void g() throws UserDefinedException1 {
+		throw new UserDefinedException1();
 	}
 }
 
